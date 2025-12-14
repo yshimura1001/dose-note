@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "turbo": "^2.6.3"
+  }
+}
