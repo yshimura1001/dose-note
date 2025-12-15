@@ -11,7 +11,7 @@
   - UIライブラリ：SolidJS 1.9.10
   - スタイリング：TailwindCSS 4.1.18
   - ルーティング：TanStack Router 1.141.2
-  - バリデーション：zod 3.25.76
+  - バリデーション：Zod 3.25.76
 - モバイルアプリ
 - バックエンド
 - 開発ツール
@@ -24,7 +24,7 @@
   - テストツール：Vitest
   - インフラ：Cloudflare Workers
 - フロントエンド・モバイルアプリ共通
-  - UIコンポーネントキット：shadcn/ui
+  - UIコンポーネントキット：Shadcn/ui
 - モバイルアプリ
   - UIキット：Ionic
   - モバイルアプリ化ツール：Capacitor
