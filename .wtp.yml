@@ -10,7 +10,7 @@ defaults:
 hooks:
   post_create:
   - type: command
-      command: pnpm install
+    command: pnpm install
     # Example: Copy environment file
     # - type: copy
     #   from: .env.example
