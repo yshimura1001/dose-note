@@ -1,0 +1,29 @@
+# Worktree Plus Configuration
+version: "1.0"
+
+# Default settings for worktrees
+defaults:
+  # Base directory for worktrees (relative to repository root)
+  base_dir: ../worktrees
+
+# Hooks that run after creating a worktree
+hooks:
+  post_create:
+  - type: command
+      command: pnpm install
+    # Example: Copy environment file
+    # - type: copy
+    #   from: .env.example
+    #   to: .env
+
+    # Example: Run a command to show all worktrees
+    # - type: command
+    #   command: wtp list
+
+    # More examples (commented out):
+    # - type: command
+    #   command: echo "Created new worktree!"
+    # - type: command
+    #   command: ls -la
+    # - type: command
+    #   command: npm install
